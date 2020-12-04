@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Desafio Web Services</string>
+    <string name="userEmail">Email</string>
+    <string name="userPassword">Password</string>
+    <string name="rememberCheckbox">Remember</string>
+    <string name="loginText">LOG IN</string>
+    <string name="createAccount">Create account</string>
+    <string name="saveText">SAVE</string>
+    <string name="userName">Name</string>
+</resources>

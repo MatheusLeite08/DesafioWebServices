@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/iv_backgroundSplashScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/raster" />
+
+    <ImageView
+        android:id="@+id/iv_marvelLogoSplashScreen"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_gravity="top|right"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/marvel_logo" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
